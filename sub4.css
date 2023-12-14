@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Diphylleia&family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    background-image: url(img/sback.png);
+    background-repeat: repeat;
+    background-size: contain;
+    width: 100vw;
+    overflow-x: hidden;
+}
+header{
+    position: relative;
+    z-index: 10;
+}
+.head{
+    width: 100vw;
+    height: 80px;
+    background-color: #A85B42;
+    position: relative;
+    z-index: 10;
+}
+.head a{
+    display: block;
+    width: 124px;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 15px;
+    text-align: center;
+}
+.navi{
+    width: 100vw;
+    height: 80px;
+    background-image: url(img/menu.png);
+    background-repeat: repeat-x;
+    background-color: rgba(255, 238, 216, 0.7);
+    position: relative;
+    z-index: 10;
+}
+.navi ul{
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.navi li{
+    width: 220px;
+    height: 80px;
+    text-align: center;
+}
+.navi li a{
+    color: #B57561;
+    font-size: 22px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    line-height: 80px;
+    letter-spacing: -0.3;
+}
+.navi li a:hover{
+    color: #65372F;
+    font-weight: 700;
+}
+.navi li .strong{
+    color: #65372F;
+    font-weight: 700;
+}
+.view{
+    width: 100vw;
+    height: 100%;
+    background-image: url(img/connection.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+
+}
+.vtext{
+    width: 100vw;
+    height: 600px;
+    text-align: center;
+    padding-top: 125px;
+}
+.vtext1{
+    color: #ffffff;
+    font-size: 60px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    line-height: 87px;
+    letter-spacing: -0.4;
+    filter: drop-shadow(1px 1px 1px #A85B42);
+}
+.vtext2{
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: -0.1;
+    filter: drop-shadow(1px 1px 1px #A85B42);
+}
+.tt{
+    width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    text-align: center;
+}
+.tt img{
+    margin-bottom: 20px;
+}
+.ttext1{
+    color: #65372F;
+    font-size: 40px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: -0.3;
+    margin-bottom: 50px;
+}
+.con{
+    width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    text-align: center;
+}
+.com>img{
+    margin-bottom: 20px;
+}
+.ctext1{
+    color: #65372F;
+    font-size: 28px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    line-height: 58px;
+    letter-spacing: -0.3;
+    margin-bottom: 20px;
+}
+.ctext2{
+    color: #65372F;
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: -0.3;
+    margin-bottom: 30px;
+}
+.ctext3{
+    color: #65372F;
+    font-size: 22px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    line-height: 58px;
+    letter-spacing: -0.3;
+    margin-bottom: 20px;
+}
+.ctext4{
+    margin-bottom: 20px;
+}
+.per{
+    margin-bottom: 50px;
+}
+footer{
+    position: relative;
+    bottom: 0;
+}
+.foot{
+    width: 100vw;
+    height: 80px;
+    background-color: #AC664F;
+}
+.footwrap{
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    padding-left: 45px;
+    padding-top: 15px;
+    position: relative;
+}
+.ftext{
+    padding-top: 5px;
+    padding-left: 22px;
+}
+.fstext{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.3;
+}
+.sns{
+    display: flex;
+    position: absolute;
+    right: 35px;
+    padding-top: 10px;
+}
+.sns a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
